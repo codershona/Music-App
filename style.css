@@ -17,3 +17,24 @@ body {
   justify-content: space-around;
   align-items: center;
 }
+
+header h1 {
+  margin: 50px 0px 30px 0px;
+  text-align: center;
+  font-size: 41px;
+
+}
+
+header p {
+  font-size: 21px;
+}
+
+.pads {
+  background: lightblue;
+  width: 100%;
+}
+
+.pads > div {
+  height: 100px;
+  width: 100px;
+}
