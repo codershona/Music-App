@@ -6,6 +6,13 @@
 }
 
 body {
+   background-image: url(img/download.png);
+    background-repeat: repeat-x;
+    height: 708px;
+    background-color: #d0e4de;
+  /* background-repeat: no-repeat;
+  background-position: right top;
+ margin-right: 200px; */
   font-family: 'Montserrat', sans-serif ;
 }
 
@@ -43,7 +50,7 @@ header p {
 
 
 .pad1 {
-  background: #60d394;
+  background: #0f4628;
 }
 
 .pad2 {
@@ -61,4 +68,32 @@ header p {
 }
 .pad6 {
   background: #60b2d3;
+}
+
+
+
+@keyframes jump {
+  0% {
+    bottom: 0%;
+    left: 20%;
+  }
+  50% {
+    bottom: 50%;
+    left: 50%;
+  }
+  100% {
+    bottom: 0%;
+    left: 80%;
+
+  }
+}
+
+.visual > div {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  left: 20%;
+  bottom: 0%;
+  z-index: -1;
 }

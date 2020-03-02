@@ -3,7 +3,7 @@ window.addEventListener("load", () => {
   const pads = document.querySelectorAll(".pads div");
   const visual = document.querySelector('.visual');
   const colors = [
-    "#60d394",
+    "#0f4628",
     "#d36060",
     "#c060d3",
     "#d3d160",
@@ -20,6 +20,8 @@ window.addEventListener("load", () => {
       sounds[index].currentTime = 0;
      // sounds[4]
      sounds[index].play();
+
+     createBubbles(index);
     });
   });
 
@@ -29,7 +31,11 @@ window.addEventListener("load", () => {
     const bubble = document.createElement("div");
     visual .appendChild(bubble);
     bubble.style.backgroundColor = colors[index];
-  }
+    bubble.style.animation = 'jump 1s ease';
+    bubble.addEventListener('animationend', function(){
+      visual.removeChild(this);
+    })
+  };
 });
 
 // console.log(sounds);
