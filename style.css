@@ -28,14 +28,30 @@ body {
 header h1 {
   margin: 50px 0px 30px 0px;
   text-align: center;
-  font-size: 41px;
+  font-size: 67px;
+  font-weight: bold;
 
 }
 
 header p {
-  font-size: 21px;
+  font-size: 32px;
+}
+.below {
+  font-size: 32px;
+  font-weight: bold;
+}
+.logo {
+  background-image: url(img/logo.jpg);
+  background-repeat: no-repeat;
+  width: 220px;
+  height: 220px;
+  border-radius: 100%;
 }
 
+.player {
+  margin: 30px 0px 30px 0px;
+  text-align: center;
+}
 .pads {
   background: lightblue;
   width: 100%;
