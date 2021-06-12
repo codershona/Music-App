@@ -8,7 +8,7 @@
 
 <p align="center">
 	
-<img src="https://user-images.githubusercontent.com/57604500/121789581-69e5b100-cbd7-11eb-8d64-4bffc1e4a74a.pngcb83-11eb-8bf9-ce406950a0fc.png" width=956>
+<img src="https://user-images.githubusercontent.com/57604500/121789581-69e5b100-cbd7-11eb-8d64-4bffc1e4a74a.png" width=956>
 <br />
-<h3 align="center">CHAT APP</h3>
+<h3 align="center">Music App with Javascript</h3>
 </p>
